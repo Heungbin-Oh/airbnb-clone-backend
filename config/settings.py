@@ -32,6 +32,14 @@ ALLOWED_HOSTS = []
 CUSTOM_APPS = [
     'users.apps.UsersConfig',
     'rooms.apps.RoomsConfig',
+    'common.apps.CommonConfig',
+    'experiences.apps.ExperiencesConfig',
+    'categories.apps.CategoriesConfig',
+    'reviews.apps.ReviewsConfig',
+    'wishlists.apps.WishlistsConfig',
+    'bookings.apps.BookingsConfig',
+    'medias.apps.MediasConfig',
+    'direct_messages.apps.DirectMessagesConfig',
 ]
 SYSTEM_APPS = [
     'django.contrib.admin',
