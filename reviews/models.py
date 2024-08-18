@@ -1,8 +1,6 @@
 from django.db import models
 from common.models import CommonModel
 from django.core.validators import MaxValueValidator
-from django.utils.translation import gettext_lazy as _
-from django.contrib import admin
 
 
 class Review(CommonModel):
