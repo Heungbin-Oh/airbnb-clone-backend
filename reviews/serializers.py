@@ -1,8 +1,8 @@
-from rest_framework.serializers import ModelSerializer
-from .models import Amenity
+from rest_framework import serializers
+from .models import Review
 
 
-class AmenitySerializer(ModelSerializer):
+class ReviewSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Amenity
+        model = Review
         fields = "__all__"
