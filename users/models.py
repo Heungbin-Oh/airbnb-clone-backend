@@ -25,7 +25,7 @@ class User(AbstractUser):
         max_length=150,
     )
     # blank=True -> make it not required
-    avatar = models.ImageField(blank=True)
+    avatar = models.URLField(blank=True)
 
     is_host = models.BooleanField(default=False)
 
