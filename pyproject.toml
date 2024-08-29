@@ -7,12 +7,18 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
-django = "^5.1"
-pillow = "^10.4.0"
-djangorestframework = "^3.15.2"
+python = "^3.9"
+Django = "^4.1"
+Pillow = "^9.2.0"
+djangorestframework = "^3.13.1"
+strawberry-graphql = {extras = ["debug-server"], version = "^0.130.4"}
+strawberry-graphql-django = "^0.5.1"
+pyjwt = "^2.9.0"
+django-environ = "^0.11.2"
 
+[tool.poetry.dev-dependencies]
+black = {version = "^22.6.0", allow-prereleases = true}
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
