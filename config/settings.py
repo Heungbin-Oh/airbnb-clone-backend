@@ -160,5 +160,5 @@ REST_FRAMEWORK = {
         "config.authentication.TrustMeBroAuthentication",
         "rest_framework.authentication.TokenAuthentication",
         "config.authentication.JWTAuthentication",
-    ]
+    ],
 }
