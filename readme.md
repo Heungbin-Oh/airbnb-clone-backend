@@ -2,9 +2,9 @@
 
 ![airbnb_admin](https://github.com/user-attachments/assets/59934262-3bd6-425e-b4d5-b3246308b271)
 
-This is a clone project of Airbnb's back-end, built with Python, Django, Django REST Framework.
+This is a clone project of Airbnb's back-end, built with Python, Django, and Django REST Framework.
 
-## Technologies Used
+## What Used in the Project
 
 - **Python & Django**: Chosen to quickly set up for user authentication, admin panel, and simplify the interactions with the SQL database.
 - **Django REST Framework**: Chosen to create RESTful APIs.
@@ -20,7 +20,7 @@ This is a clone project of Airbnb's back-end, built with Python, Django, Django 
 
 ### Challenges:
 
-Initially, I did not know about Django's ORM. Once I discovered ORM features, the code became much cleaner, so that there was no need to create 5 bridge tables.
+At first, I did not use Django's ORM features. Once I discovered ORM features, the code became much cleaner, so that there was no need to create 5 bridge tables.
 
 ### Future Improvements:
 
