@@ -24,7 +24,8 @@ Initially, I did not know about Django's ORM. Once I discovered ORM features, th
 
 ### Future Improvements:
 
-- Implement a ReactJS front-end section for an interactive and dynamic web application.
+Implement a ReactJS front-end section for an interactive and dynamic web application.
 
 ## Entity Relationship Diagram
+
 ![AIRBNB_DIAGRAM](https://github.com/user-attachments/assets/42652fb2-3c76-4ef9-b40f-a5fa4b0de9c6)
