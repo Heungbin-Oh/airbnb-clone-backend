@@ -4,6 +4,10 @@
 
 This is a clone project of Airbnb's back-end, built with Python, Django, and Django REST Framework.
 
+## Entity Relationship Diagram
+
+![AIRBNB_DIAGRAM](https://github.com/user-attachments/assets/42652fb2-3c76-4ef9-b40f-a5fa4b0de9c6)
+
 ## What Used in the Project
 
 - **Python & Django**: Chosen to quickly set up for user authentication, admin panel, and simplify the interactions with the SQL database.
@@ -26,6 +30,3 @@ At first, I did not use Django's ORM features. Once I discovered ORM features, t
 
 Implement a ReactJS front-end section for an interactive and dynamic web application.
 
-## Entity Relationship Diagram
-
-![AIRBNB_DIAGRAM](https://github.com/user-attachments/assets/42652fb2-3c76-4ef9-b40f-a5fa4b0de9c6)
